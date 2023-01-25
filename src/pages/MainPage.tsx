@@ -2,13 +2,10 @@ import { useEffect, useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import './MainPage.css'
 import { SearchBar } from '../components/SearchBar'
+import {Quote} from '../components/QuoteInterface'
 
 export function MainPage() {
-  interface Quote {
-    id: string
-    author: string
-    content: string
-  }
+
 
   const [randomQuote, setRandomQuote] = useState<Quote | null>(null)
 
