@@ -1,0 +1,19 @@
+#searchBar{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+#searchBar button{
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+#searchBar input {
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
