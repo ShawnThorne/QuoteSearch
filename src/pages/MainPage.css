@@ -37,6 +37,7 @@
 #searchBar input{
   border-radius: 0px 20px 20px 0px;
   width: clamp(0px, 30ch, 80vw);
+  color: black;
 }
 
 #searchBar button{
